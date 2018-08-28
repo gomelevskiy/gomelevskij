@@ -1,0 +1,538 @@
+$transition: all 0.3s ease
+
+/* Mobile device */
+@media screen and (max-width: 1440px)
+  body
+    .projects
+      &__list
+        .slide
+          h2
+            font-size: 44px
+            line-height: 50px
+            margin: 60px 0 12px -62px
+
+@media screen and (max-width: 1200px)
+  body
+    h1
+      font-size: 50px
+      line-height: 58px
+
+    .main
+      .textbox
+        margin-top: 200px
+
+      &__text
+        margin-left: 300px
+        margin-top: 0
+
+    .about
+      &__profile
+        &-sqr
+          height: 170px
+          padding: 40px 0
+
+          &.sqr--top
+            top: -40px
+            right: 70px
+
+    .projects
+      &__list
+       .slide
+        a
+          &:before
+            left: 381px
+
+          &:after
+            left: 380px
+
+        .image-box
+          img
+            width: 442px !important
+            height: 300px !important
+
+        h2
+          font-size: 38px
+          line-height: 44px
+
+    .contacts
+      &__left
+        padding: 80px 62px
+
+      &__right
+        padding: 60px 120px 0
+
+@media screen and (max-width: 992px)
+  body
+    h1
+      font-size: 34px
+      line-height: 42px
+
+    .fp-controlArrow
+      display: none !important
+
+    .fp-slides
+      overflow: inherit
+
+    .fp-slidesContainer
+      display: block
+      width: 100% !important
+
+    .fp-tableCell
+      height: 100% !important
+      display: block !important
+
+    .navbox
+      padding-left: 80px
+
+      .left
+        width: 100%
+        border-right: none
+
+        .nav
+          .item
+            font-size: 32px
+            line-height: 38px
+
+      .right
+        display: none
+        visibility: hidden
+
+    .navbar
+      width: 50px
+      transition: $transition
+
+      .nav-btn
+        width: 50px
+        height: 50px
+        transition: $transition
+
+        .point
+          visibility: hidden
+          opacity: 0
+
+        .social-list
+          li
+            a
+              width: 40px
+              height: 40px
+              background-size: 22px
+
+    .hello
+      padding: 18px 14px
+
+      &:before
+        content: ''
+        display: block
+        width: 22px
+        height: 14px
+        background-image: url("../images/mail.svg")
+        background-repeat: no-repeat
+        background-position: center
+
+      .text
+        visibility: hidden
+        opacity: 0
+        display: none
+
+    .section
+      display: block !important
+      height: initial !important
+      padding-bottom: 120px
+      padding-top: 120px
+      padding-left: 60px
+      padding-right: 50px
+      text-align: center
+
+      &:before
+        width: initial
+        font-family: GothamPro
+        font-size: 40px
+        line-height: 48px
+        display: block
+        position: initial
+        opacity: 1
+        word-wrap: initial
+        margin-bottom: 30px
+        color: #fff
+
+      &:after
+        display: none
+
+    .main
+      background-image: url("../images/main.jpg")
+      background-position: top center
+      background-repeat: no-repeat
+      background-size: cover
+
+      &:before
+        content: ''
+        width: 100%
+        height: 100%
+        position: absolute
+        z-index: 1
+        background-color: rgba(0, 0, 0, 0.5)
+        left: 0
+        top: 0
+
+      .scroll-up
+        display: none
+        visibility: hidden
+
+      .videobox
+        display: none
+        visibility: hidden
+
+      .main__text
+        margin-left: 0
+        padding-left: 24px
+
+        &:before
+          width: 80px
+          margin: 0 auto 10px
+          position: initial
+          display: block
+
+      .textbox
+        margin-top: 140px
+
+    .about
+      &__profile
+        max-width: 100%
+
+        &-image
+          width: 80px
+          height: 80px
+          margin: 0 auto 30px
+          background-size: cover
+          border-radius: 100%
+          z-index: 30
+
+          &:before
+            display: none
+
+        &-card
+          position: relative
+          left: 0
+          top: 0
+          max-width: initial
+
+          .name
+            text-align: center
+            font-size: 24px
+            line-height: 32px
+            margin-bottom: 10px
+
+          .status
+            text-align: center
+
+            &:before
+              width: 20px
+              margin: 0 auto 10px
+              display: block
+
+        &-text
+          position: relative
+          padding: 20px 0
+          max-width: initial
+
+        &-sqr
+          display: block
+          position: initial
+          width: 100%
+          height: 112px
+          padding: 26px 0
+          margin-bottom: 15px
+
+          span
+            font-size: 30px
+            line-height: 36px
+
+    .projects
+      &__list
+        overflow: hidden
+        margin: 0
+
+        .slide
+          width: 100% !important
+
+          a
+            &:before, &:after
+              display: none
+
+          .image-box
+            display: block
+            margin-bottom: 10px
+
+            img
+              width: 100% !important
+              height: inherit !important
+
+          h2
+            margin: 0 0 10px 8px
+            font-size: 24px
+            line-height: 30px
+
+          p
+            margin: 0 0 40px 8px
+            font-size: 14px
+            line-height: 20px
+            display: block
+
+    .contacts
+      padding-bottom: 0
+
+      &__left
+        width: 100%
+        height: initial
+        margin-bottom: 20px
+        padding: 20px
+        margin-left: -5px
+        position: initial
+
+        .article
+          display: none
+
+        .box
+          a
+            font-size: 16px
+            margin-right: 0
+
+      &__right
+        width: 100%
+        height: initial
+        padding: 20px
+        position: initial
+
+@media screen and (max-width: 640px)
+  body
+    h1
+      font-size: 34px
+      line-height: 42px
+
+    .fp-controlArrow
+      display: none !important
+
+    .fp-slides
+      overflow: inherit
+
+    .fp-slidesContainer
+      display: block
+      width: 100% !important
+
+    .fp-tableCell
+      height: 100% !important
+
+    .navbox
+      padding-left: 80px
+
+      .left
+        width: 100%
+        border-right: none
+
+        .nav
+          .item
+            font-size: 32px
+            line-height: 38px
+
+      .right
+        display: none
+        visibility: hidden
+
+    .navbar
+      width: 50px
+      transition: $transition
+
+      .nav-btn
+        width: 50px
+        height: 50px
+        transition: $transition
+
+        .point
+          visibility: hidden
+          opacity: 0
+
+        .social-list
+          li
+            a
+              width: 40px
+              height: 40px
+              background-size: 22px
+
+    .hello
+      padding: 18px 14px
+
+      &:before
+        content: ''
+        display: block
+        width: 22px
+        height: 14px
+        background-image: url("../images/mail.svg")
+        background-repeat: no-repeat
+        background-position: center
+
+      .text
+        visibility: hidden
+        opacity: 0
+        display: none
+
+    .section
+      display: block !important
+      height: initial !important
+      padding-bottom: 120px
+      padding-top: 20px
+      padding-left: 60px
+      padding-right: 50px
+
+      &:before
+        width: initial
+        font-family: GothamPro
+        font-size: 40px
+        line-height: 48px
+        display: block
+        position: initial
+        opacity: 1
+        word-wrap: initial
+        margin-bottom: 30px
+        color: #fff
+
+      &:after
+        display: none
+
+    .main
+      background-image: url("../images/main.jpg")
+      background-position: top center
+      background-repeat: no-repeat
+      background-size: cover
+
+      &:before
+        content: ''
+        width: 100%
+        height: 100%
+        position: absolute
+        z-index: 1
+        background-color: rgba(0, 0, 0, 0.5)
+        left: 0
+        top: 0
+
+      .scroll-up
+        display: none
+        visibility: hidden
+
+      .videobox
+        display: none
+        visibility: hidden
+
+      .main__text
+        margin-left: 0
+        padding-left: 24px
+
+        &:before
+          width: 10px
+
+      .textbox
+        margin-top: 140px
+
+    .about
+      &__profile
+        max-width: 100%
+
+        &-image
+          width: 80px
+          height: 80px
+          margin: 0 auto 30px
+          background-size: cover
+          border-radius: 100%
+          z-index: 30
+
+          &:before
+            display: none
+
+        &-card
+          position: relative
+          left: 0
+          top: 0
+
+          .name
+            text-align: center
+            font-size: 24px
+            line-height: 32px
+            margin-bottom: 10px
+
+          .status
+            text-align: center
+
+            &:before
+              width: 20px
+              margin: 0 auto 10px
+              display: block
+
+        &-text
+          position: relative
+          padding: 20px 0
+
+        &-sqr
+          display: block
+          position: initial
+          width: 100%
+          height: 112px
+          padding: 26px 0
+          margin-bottom: 15px
+
+          span
+            font-size: 30px
+            line-height: 36px
+
+    .projects
+      &__list
+        overflow: hidden
+        margin: 0
+
+        .slide
+          width: 100% !important
+
+          a
+            &:before, &:after
+              display: none
+
+          .image-box
+            display: block
+            margin-bottom: 10px
+
+            img
+              width: 100% !important
+              height: inherit !important
+
+          h2
+            margin: 0 0 10px 8px
+            font-size: 24px
+            line-height: 30px
+
+          p
+            margin: 0 0 40px 8px
+            font-size: 14px
+            line-height: 20px
+
+    .contacts
+      padding-bottom: 0
+
+      &__left
+        width: 100%
+        height: initial
+        margin-bottom: 20px
+        padding: 20px
+        margin-left: -5px
+        position: initial
+
+        .article
+          display: none
+
+        .box
+          a
+            font-size: 16px
+            margin-right: 0
+
+      &__right
+        width: 100%
+        height: initial
+        padding: 20px
+        position: initial

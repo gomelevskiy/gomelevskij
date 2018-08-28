@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'AvenirNext';
+    src: url("../fonts/AvenirNextLTPro-Medium.eot");
+    src: url("../fonts/AvenirNextLTPro-Medium.woff") format("woff"),
+         url("../fonts/AvenirNextLTPro-Medium.ttf") format("truetype"),
+         url("../fonts/AvenirNextLTPro-Medium.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamPro';
+    src: url("../fonts/GothaProBlack.eot");
+    src: url("../fonts/GothaProBlack.woff") format("woff"),
+         url("../fonts/GothaProBlack.ttf") format("truetype"),
+         url("../fonts/GothaProBlack.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
