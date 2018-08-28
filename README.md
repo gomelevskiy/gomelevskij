@@ -1,6 +1,6 @@
 # Portfolio (front)
 ##### Design: [Vadim Zlygastev](https://zvadim.ru/)
-##### Old portfolio: [Gomelevskij.com](https://gomelevskij.com/)
+##### Link portfolio: [Gomelevskij.com](https://gomelevskij.com/)
 ---
 **Structure:**
 1. Main screen
